@@ -5,7 +5,7 @@ requirements
 -----
 
 * homebrew
-* xcode
+* ansible
 * xcode
 
 

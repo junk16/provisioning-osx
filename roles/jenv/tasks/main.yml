@@ -1,0 +1,7 @@
+---
+- name: adding jdk1.6 for illustrator cs6
+  shell: jenv add $(/usr/libexec/java_home -v 1.6)
+  register: result
+  ignore_errors: True
+- debug: msg="debug"
+  when: result|success

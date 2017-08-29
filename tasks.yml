@@ -3,6 +3,7 @@
   gather_facts: no
   become_user: no
   roles:
+    - git
     - xcode
     - homebrew_tap
     - homebrew

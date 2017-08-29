@@ -1,0 +1,5 @@
+---
+homebrew_taps:
+  - { name: homebrew/apache }
+  - { name: caskroom/cask }
+  - { name: caskroom/versions }

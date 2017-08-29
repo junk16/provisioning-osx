@@ -1,0 +1,10 @@
+---
+- name: Add homebrew tap repositories
+  homebrew_tap: tap={{ item.name }} state=present
+  with_items:
+    - "{{ homebrew_taps }}"
+
+- name: Install Homebrew cask packages
+  homebrew_cask: name={{ item.name }}
+  with_items:
+    - "{{ homebrew_casks }}"

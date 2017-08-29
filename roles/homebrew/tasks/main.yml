@@ -1,0 +1,11 @@
+---
+- name: Update Homebrew
+  homebrew: update_homebrew=yes
+  
+- name: Install/Upgrade Homebrew packages
+  homebrew:
+    name: "{{ item.name }}"
+    install_options: "{{ item.install_options | default(omit) }}"
+    state: "{{ item.state | default('latest') }}"
+  with_items:
+    - "{{ homebrew_packages }}"

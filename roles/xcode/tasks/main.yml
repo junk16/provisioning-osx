@@ -1,0 +1,8 @@
+---
+- name: xcode-select --install
+  shell: xcode-select --install
+  register: result
+  ignore_errors: True
+  #failed_when: False
+- debug: msg="debug"
+  when: result|success

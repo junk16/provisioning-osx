@@ -1,0 +1,5 @@
+anyenv_languages:
+  - jenv
+  - ndenv
+  - pyenv
+  - rbenv

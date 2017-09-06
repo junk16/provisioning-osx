@@ -12,7 +12,7 @@ requirements
 Usage
 -----
 1. clone this repository.
-2. run `ansible-playbook -i hosts task.yml`
+2. run `ansible-playbook -i hosts tasks.yml`
 
 
 

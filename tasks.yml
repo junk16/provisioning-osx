@@ -1,11 +1,12 @@
 - hosts: localhost
   connection: local
-  gather_facts: no
+  gather_facts: nos
   become_user: no
   roles:
     - git
     - xcode
     - homebrew_tap
-    - homebrew
     - homebrew_cask
-    - jenvs
+    - homebrew
+    - anyenv
+    #- jenv

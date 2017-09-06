@@ -35,7 +35,7 @@ homebrew_packages:
   - { name: imagemagick }
   - { name: jack }
   - { name: jadx }
-  - { name: jenv }
+####  - { name: jenv }
 #  - { name: jenkins }
   - { name: jpeg }
   - { name: jq }
@@ -46,18 +46,20 @@ homebrew_packages:
   - { name: md5sha1sum }
   - { name: memcached }
   - { name: mysql }
+####  - { name: ndenv }
+####  - { name: node-build }
   - { name: nginx }
   - { name: openssl }
   - { name: pkg-config }
   - { name: postgresql }
-  - { name: pyenv }
+####  - { name: pyenv }
   - { name: r }
 ##  - { name: rar }
-  - { name: rbenv }
+####  - { name: rbenv }
   - { name: readline }
 #  - { name: redis }
   - { name: rename }
-  - { name: ruby-build }
+####  - { name: ruby-build }
 #  - { name: scalaenv }
   - { name: sqlite }
   - { name: tmux }

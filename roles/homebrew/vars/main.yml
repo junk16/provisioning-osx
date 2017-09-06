@@ -21,6 +21,7 @@ homebrew_packages:
   - { name: gdb }
 ###  - { name: gdbm }
 #  - { name: gettext }
+  - { name: gibo }
   - { name: git }
   - { name: git-flow }
   - { name: glib }

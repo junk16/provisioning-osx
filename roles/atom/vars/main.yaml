@@ -1,0 +1,6 @@
+---
+apm_packages:
+  - sublime-style-column-selection
+  - atom-ide-ui
+  - plantuml-viewer
+  - language-plantuml

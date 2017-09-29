@@ -1,0 +1,4 @@
+---
+- name: install plugin for atom
+  shell: apm install {{ item }}
+  with_items: '{{ apm_packages }}'

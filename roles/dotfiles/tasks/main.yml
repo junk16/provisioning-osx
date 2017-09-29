@@ -1,0 +1,12 @@
+---
+- name: dotfiles
+  git:
+    repo: https://github.com/junk16/dotfiles
+    dest: ~/dotfiles
+- name: linking files
+  file:
+    src: "~/dotfiles/{{ item.name }}"
+    dest: "~/{{ item.dest }}"
+    state: link
+  with_items:
+    - "{{ dotfiles }}"

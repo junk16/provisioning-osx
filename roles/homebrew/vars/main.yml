@@ -9,6 +9,7 @@ homebrew_packages:
 ## - { name: avr-binutils }
   - { name: avrdude }
 ##  - { name: class-dump }
+  - { name: ctags }
   - { name: cmake }
   - { name: csshx }
   - { name: ems-flasher }
@@ -42,6 +43,7 @@ homebrew_packages:
   - { name: jq }
 # - { name: kafka }
   - { name: lame }
+  - { name: mas }
 #  - { name: maven }
   - { name: mcrypt }
   - { name: md5sha1sum }
@@ -65,6 +67,7 @@ homebrew_packages:
   - { name: sqlite }
   - { name: tmux }
   - { name: unrar }
+  - { name: vegeta }
   - { name: vim }
   - { name: wget }
   - { name: xhyve }

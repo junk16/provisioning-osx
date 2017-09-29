@@ -1,3 +1,4 @@
 ---
 homebrew_casks:
   - { name: java6 }
+  - { name: upterm }

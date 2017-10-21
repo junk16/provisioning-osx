@@ -1,6 +1,7 @@
 ---
 dotfiles:
   - { name: .bash_profile, dest: .bash_profile }
+  - { name: .bashrc, dest: .bashrc }
   - { name: .gitignore4home, dest: .gitignore }
   - { name: .tmux.conf, dest: .tmux.conf }
   - { name: .vimrc, dest: .vimrc }

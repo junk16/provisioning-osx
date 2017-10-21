@@ -4,3 +4,5 @@ apm_packages:
   - atom-ide-ui
   - plantuml-viewer
   - language-plantuml
+  - tablr
+  - vim-mode-plus

@@ -4,3 +4,4 @@ dotfiles:
   - { name: .gitignore4home, dest: .gitignore }
   - { name: .tmux.conf, dest: .tmux.conf }
   - { name: .vimrc, dest: .vimrc }
+  - { name: .gvimrc, dest: .gvimrc }

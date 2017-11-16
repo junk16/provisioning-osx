@@ -1,4 +1,5 @@
 ---
 homebrew_casks:
   - { name: java6 }
+  - { name: minikube }
   - { name: upterm }

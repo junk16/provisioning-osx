@@ -34,6 +34,7 @@ homebrew_packages:
   - { name: gperftools }
 #  - { name: hadoop }
 #  - { name: htop-osx }
+  - { name: httpd }
   - { name: ifstat }
   - { name: imagemagick }
   - { name: jack }
@@ -76,6 +77,21 @@ homebrew_packages:
   - { name: xvid }
   - { name: youtube-dl }
   - { name: zlib }
+# for phpenv
+  - { name: freetype }
+  - { name: gettext }
+  - { name: icu4c }
+  - { name: jpeg }
+  - { name: libpng }
+  - { name: libxml2 }
+  - { name: unixodbc }
+  - { name: readline }
+  - { name: openssl }
+  - { name: re2c }
+  - { name: libmcrypt }
+  - { name: autoconf }
+  - { name: automake }
+
 #  - { name: homebrew/apache/httpd22 }
 #  - { name: caskroom/cask/rar }
 #  - { name: caskroom/cask/jad }

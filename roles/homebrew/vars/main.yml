@@ -43,6 +43,7 @@ homebrew_packages:
   - { name: jpeg }
   - { name: jq }
 # - { name: kafka }
+  - { name: kubectl }
   - { name: lame }
   - { name: mas }
 #  - { name: maven }
@@ -75,6 +76,6 @@ homebrew_packages:
   - { name: xvid }
   - { name: youtube-dl }
   - { name: zlib }
-  - { name: homebrew/apache/httpd22 }
+#  - { name: homebrew/apache/httpd22 }
 #  - { name: caskroom/cask/rar }
 #  - { name: caskroom/cask/jad }
